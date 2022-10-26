@@ -1,0 +1,37 @@
+body {
+  box-sizing: border-box;
+}
+
+.Box_container {
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+.Box_container .Buttons_container {
+  margin: auto;
+  width: 100%;
+  padding: 30px;
+  text-align: center;
+}
+.Box_container .Buttons_container button {
+  border: none;
+  background-color: #ffffff;
+}
+.Box_container .Buttons_container img {
+  padding: 10px;
+  border-radius: 10px;
+}
+@media screen and (max-width: 480px) {
+  .Box_container {
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+  }
+  .Box_container .Buttons_container {
+    margin-left: 120px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+  }
+}
